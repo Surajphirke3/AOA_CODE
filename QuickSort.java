@@ -62,3 +62,19 @@ public class QuickSort {
         sc.close(); // Close the scanner after use
     }
 }
+
+
+
+
+
+// key points:
+
+// Pivot Selection: The pivot is always the last element in the array. This can cause slow performance (O(n²)) when the array is sorted or nearly sorted.
+
+// Time Complexity: On average, QuickSort runs in O(n log n) time. But in the worst case (like with a bad pivot), it can slow down to O(n²), especially if the array is already sorted.
+
+// Space Complexity: The space complexity is O(log n) due to the recursion stack. In the worst case, it could be O(n).
+
+// In-place Sorting: QuickSort sorts the array without needing extra space.
+
+// Efficiency: QuickSort is fast for large datasets, especially if the pivot selection is improved to avoid worst-case scenarios.
