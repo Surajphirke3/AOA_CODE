@@ -49,11 +49,11 @@ public class Knapsack
             i++;
         }
         System.out.println("\n*********************************************");
-        System.out.println("Items added to the knapsack (item numbers and profits):");
+        System.out.println("Items added to the knapsack (item numbers and With Weight and profits):");
         System.out.println("----------------------------------------------------------------");
 
         for (int j = 0; j < itemCount; j++) {
-            System.out.println("Item number: " + selectedItems[j] + " with profit: " + selectedProfits[j]);
+            System.out.println("Item number: " + selectedItems[j] + " Added item with " +selectedWeights[j]+ " with profit: " + selectedProfits[j]);
         }
         System.out.println("*********************************************");
 
